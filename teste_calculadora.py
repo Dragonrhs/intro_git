@@ -4,5 +4,7 @@ def main():
     b = 3
     soma = calculadora.soma(a, b)
     print(f'{a}+{b}={soma}')
-    
-    main()
+    subtracao = calculadora.subtraia(a, b)
+    print(f'{a} - {b}={subtracao}')
+     
+main()
